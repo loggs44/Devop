@@ -1,8 +1,8 @@
-import { expect, it } from '@jest/globals'
-import sayHello from '../Utils/helloworld'
+import sayHello from '../Utils/helloworld.js';
+import assert from 'assert';
 
 it('Should say hello',()=>{
     const hello = sayHello();
 
-    expect(hello).toBe('hello');
+    assert.equal(hello,'hello');
 });
