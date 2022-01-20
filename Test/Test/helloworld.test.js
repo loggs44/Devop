@@ -7,4 +7,5 @@ it('Should say hello',()=>{
     assert.equal(hello,'hello');
 });
 
-/* This is a cool code */
+#Some awesome code!
+#Test this file
